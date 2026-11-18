@@ -10,9 +10,17 @@ chmod +x startup.sh && ./startup.sh
 ```
 Then go to *Ports* and right-click on the forwarded port. Change the protocol to "HTTPS." Then you're all set.
 
+Afterwards, you can simply run `./startup.sh` to restart your session.
+
 ## FAQs
 
 ### Why is it taking so long?
 Be patient. That's all you need. First setup will take longer, the times after that will be much faster.
 
-### 
+## Versions
+
+### v1
+Docker image, unfortunately doesn't save data
+
+### v2
+Keepalive script, with session saving (only saves Google Account info)
