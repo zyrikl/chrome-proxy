@@ -35,6 +35,9 @@ Be patient. That's all you need. First setup will take longer, the times after t
 
 ## Versions
 
+### v3.2
+Kills hanging keep-alive processes that were affecting performance of previous versions.
+
 ### v3.1
 Add update functionality with `./startup.sh update` to make it easier for users to get the latest version.
 
